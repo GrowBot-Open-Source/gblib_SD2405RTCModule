@@ -1,0 +1,3 @@
+setup KEYWORD1
+getTime KEYWORD1
+gb_SD2405_RTCModule KEYWORD1
