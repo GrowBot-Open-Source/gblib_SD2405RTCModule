@@ -1,5 +1,5 @@
 #include "gb_SD2405_RTCModule.h"
-#include <GravityRtc.h>
+#include "GravityRtc.h"
 
 GravityRtc rtc;
 
@@ -12,4 +12,5 @@ void gb_SD2405_RTCModule::setupRtc()
 String gb_SD2405_RTCModule::getTime()
 {
     rtc.read();
+    return String(rtc.year) + '/' + String(rtc.month) + '/' + String(rtc.day) + 'T' + String(rtc.hour) + ':' + String(rtc.minute) + ':' + String(rtc.second);
 }
