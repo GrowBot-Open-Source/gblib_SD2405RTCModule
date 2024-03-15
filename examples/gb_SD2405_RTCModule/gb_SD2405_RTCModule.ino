@@ -1,9 +1,6 @@
 #include <gb_SD2405_RTCModule.h>
-#include <Arduino.h>
-#include <Wire.h>
-#include <GravityRtc.h>
 
-gb_SD2405_RTCModule clock("Testing");
+gb_SD2405_RTCModule clock;
 
 void setup()
 {

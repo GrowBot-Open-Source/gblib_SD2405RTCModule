@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#ifndef gb_SD2405_RTCModule_h
-#define gb_SD2405_RTCModule_h
-=======
 /*********************************************************************
  * gb_SD2405_RTCModule.h
  *
@@ -23,9 +19,8 @@
  * date    :  2024-05-14
  **********************************************************************/
 
-#ifndef gb_SD2405_RTCModule.h
-#define gb_SD2405_RTCModule.h
->>>>>>> 74d829e8800d3f958d949b9350b0123c715a4dc7
+#ifndef gb_SD2405_RTCModule_h
+#define gb_SD2405_RTCModule_h
 
 #include <Arduino.h>
 #include <GravityRtc.h>
@@ -33,13 +28,7 @@
 class gb_SD2405_RTCModule
 {
 private:
-    
 public:
-<<<<<<< HEAD
-    String timeStamp;
-    void setupRtc();
-    String getTime();
-=======
     gb_SD2405_RTCModule(){};
 
     // setup rtc module
@@ -47,7 +36,6 @@ public:
 
     // get timestamp
     void getTime();
->>>>>>> 74d829e8800d3f958d949b9350b0123c715a4dc7
 };
 
 #endif

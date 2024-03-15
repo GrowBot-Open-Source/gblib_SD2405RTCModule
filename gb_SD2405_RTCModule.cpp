@@ -20,11 +20,8 @@
  **********************************************************************/
 
 #include "gb_SD2405_RTCModule.h"
-<<<<<<< HEAD
-=======
 #include <Arduino.h>
 #include <GravityRtc.h>
->>>>>>> 74d829e8800d3f958d949b9350b0123c715a4dc7
 
 GravityRtc rtc;
 
