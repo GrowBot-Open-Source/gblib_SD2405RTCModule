@@ -1,14 +1,14 @@
 #include <gb_SD2405_RTCModule.h>
 
-gb_SD2405_RTCModule clock;
+gb_SD2405_RTCModule rtcClock;
 
 void setup()
 {
     Serial.begin(9600);
-    clock.setupRtc();
+    rtcClock.setupRtc();
 }
 
 void loop()
 {
-    clock.getTime();
+    rtcClock.getTime();
 }
