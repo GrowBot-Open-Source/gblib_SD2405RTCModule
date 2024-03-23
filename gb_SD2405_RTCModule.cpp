@@ -13,6 +13,11 @@
  * Product Links：https://www.dfrobot.com/wiki/index.php/Gravity:_I2C_SD2405_RTC_Module_SKU:_DFR0469
  *
  * Sensor driver pin：I2C
+ * Connection:
+ * VCC-5v
+ * GND-GND
+ * SCL-SCL(analog pin 5)
+ * SDA-SDA(analog pin 4)
  *
  * author  :  GrowBot
  * version :  V1.0
