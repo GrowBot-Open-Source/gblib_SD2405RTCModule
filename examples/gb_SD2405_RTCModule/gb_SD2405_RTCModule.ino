@@ -10,5 +10,6 @@ void setup()
 
 void loop()
 {
-    rtcClock.getTime();
+    Serial.println(rtcClock.getTime());
+    delay(1000);
 }

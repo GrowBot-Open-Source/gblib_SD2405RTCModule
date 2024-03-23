@@ -25,8 +25,6 @@
 
 GravityRtc rtc;
 
-gb_SD2405_RTCModule::gb_SD2405_RTCModule(){};
-
 //********************************************************************************************
 // Function Name: setupRtc()
 // Function Declaration: start and setup rtc module
@@ -35,6 +33,12 @@ void gb_SD2405_RTCModule::setupRtc()
 {
     rtc.setup();
     rtc.adjustRtc(F(__DATE__), F(__TIME__));
+}
+
+void gb_SD2405_RTCModule::setupRtc(int year, int month, int day, int hour, int minute, int second, int millisecond)
+{
+    rtc.setup();
+    rtc.adjustRtc(year, month, day, hour, minute, second, millisecond);
 }
 
 //********************************************************************************************

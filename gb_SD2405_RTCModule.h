@@ -30,12 +30,16 @@ class gb_SD2405_RTCModule
 private:
 public:
     gb_SD2405_RTCModule(){};
+    ~gb_SD2405_RTCModule(){};
 
     // setup rtc module
     void setupRtc();
 
+    // setup rtc module manually
+    void setupRtc(int year, int month, int day, int hour, int minute, int second, int millisecond);
+
     // get timestamp
-    void getTime();
+    String getTime();
 };
 
 #endif
